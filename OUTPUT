@@ -1,6 +1,6 @@
 ---0`~`0---RAYYAN SPORT SHOES SHOP---0`~`0---
 Please enter your name:
-RAYYAN
+rayyan
 	
 Enter your gender (Women=W && Men=M) :
 W
@@ -13,7 +13,7 @@ W
 Enter your size:
 37
 	
------------------BRANDS AND TYPE-----------------
+---------------BRANDS AND TYPE---------------
 _________________________________________________
 | Adidas   |-Football    |Price design + RM2.00 |
 |          |-Hiking      |                      |
@@ -36,7 +36,7 @@ _________________________________________________
 |          |-Tennis      |                      |
 |__________|_____________|______________________|
 Enter brand(type):
-PUMA(FLATS)
+puma(flats)
 Enter your chosen set (A/B/C/D/E):
 A
 ---------------------------------SETS THAT COME WITH OFFERS--------------------------------
@@ -66,8 +66,10 @@ ___________________________________________________________________
 |__________|______________________________________________________|
 	
 Enter your chosen design :
-STRIPE
+stripe
 	
 THE PRICE FOR SIZE AND DESIGN WILL BE ADDED AFTER THE CALCULATION FOR PRICE OF CHOSEN SET
 	
 Total price RM:84.50
+DO YOU WANT TO ADD ANY ORDER? Y=yes, N=no
+N
