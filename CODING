@@ -9,7 +9,8 @@ public class assignment2 {
 		Scanner sc = new Scanner(System.in);
 		String name,design,brand;
 		double totalprice;
-		int price;
+		int price,i;
+		char option;
 		
 		System.out.println("---0`~`0---RAYYAN SPORT SHOES SHOP---0`~`0---");
 		
@@ -17,8 +18,12 @@ public class assignment2 {
 		name = sc.nextLine();
 	
 		System.out.println("\t");
+		
+		do {
+		
 		System.out.println("Enter your gender (Women=W && Men=M) :");
 		char gender =sc.next().charAt(0);
+					
 		
 		if (gender == 'W' || gender =='w') {
 
@@ -39,15 +44,24 @@ public class assignment2 {
 		System.out.println("*45-48 = Total price + RM5.00*");
 		System.out.println("******************************");
 		
-	}
+		}
+		
+
 		System.out.println("Enter your size:");
 		int size =sc.nextInt();
 		
 		System.out.println("\t");
 		
+		for(i=1;i<6;i++) {
+			System.out.print("---");
+
+		}
+		System.out.print("BRANDS AND TYPE");
 		
-		System.out.println("-----------------BRANDS AND TYPE-----------------");
-		System.out.println("_________________________________________________");
+		for(i=1;i<6;i++) {
+			System.out.print("---");
+		}
+		System.out.println("\n_________________________________________________");
 		System.out.println("| Adidas   |-Football    |Price design + RM2.00 |");
 		System.out.println("|          |-Hiking      |                      |");
 		System.out.println("|          |-Daily wear  |                      |");
@@ -77,7 +91,8 @@ public class assignment2 {
 		char set = sc.next().charAt(0);
 
 		if (set == 'A') {
-			
+
+				
 		System.out.println("---------------------------------SETS THAT COME WITH OFFERS--------------------------------");
 		System.out.println("___________________________________________________________________________________________");
 		System.out.println("|    Set   |           OPFFERS                       |       PRICE                        |");
@@ -267,8 +282,11 @@ public class assignment2 {
 		
 		System.out.printf("Total price RM:");
 		totalprice= sc.nextDouble();
-				
-		
+			
+		System.out.println("DO YOU WANT TO ADD ANY ORDER? Y=yes, N=no");
+		 option = sc.next().charAt(0);
+	
+	}while (option =='Y' || option =='y');
 		
 		}
 
